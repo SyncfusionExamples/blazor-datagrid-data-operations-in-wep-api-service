@@ -1,0 +1,15 @@
+﻿@page "/"
+
+@using Grid_WebAPI.Data
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Data
+@using Syncfusion.Blazor.Grids
+
+<SfGrid TValue="Order" AllowFiltering="true" AllowSorting="true" AllowPaging="true">
+    <SfDataManager Url="api/Default" Adaptor="Adaptors.WebApiAdaptor"></SfDataManager>    
+    <GridColumns>
+        <GridColumn Field="EmployeeID" HeaderText="ID" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field="OrderID" HeaderText="Order ID" IsPrimaryKey="true" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field="CustomerID" HeaderText="Customer Name" Width="150"></GridColumn>
+    </GridColumns>
+</SfGrid>
