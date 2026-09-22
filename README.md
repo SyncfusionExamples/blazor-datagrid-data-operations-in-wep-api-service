@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to perform data operations in a Web API service and display the processed results in the Syncfusion Blazor DataGrid. Instead of executing sorting, filtering, paging, and related operations on the client side, the requests are handled in the server layer and the resulting data is returned to the grid. The application uses Entity Framework Core and SQL Server to retrieve data from the Northwind database and provides a practical reference implementation for building scalable server-side data processing solutions with Syncfusion Blazor DataGrid.
+This sample demonstrates how to perform data operations in a Web API service and display the processed results in the Syncfusion [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid). Instead of executing sorting, filtering, paging, and related operations on the client side, the requests are handled in the server layer and the resulting data is returned to the grid. The application uses Entity Framework Core and SQL Server to retrieve data from the Northwind database and provides a practical reference implementation for building scalable server-side data processing solutions with Syncfusion Blazor DataGrid.
 
 ## Key Features
 
